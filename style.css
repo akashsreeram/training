@@ -1,0 +1,96 @@
+body{
+    font-family: 'Fredoka One';
+}
+select{
+    font-family: 'Fredoka One';
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 5px;
+}
+.btn input[type="submit"]{
+    border: 0;
+    font-family: 'Fredoka One';
+    background-color: #f6f6f6;
+    font-size: large;
+}
+body.signin-body{
+    background-color: #ff6961;
+}
+.container.signin-container{
+  margin-top: 4% ;
+  margin-bottom: 4%;
+}
+.card.signin-card{
+    padding:20px 0px 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 3%;
+    background-color: #f6f6f6;
+}
+.country{
+    padding: 15px;
+}
+.drop{
+    padding-top: 9.5px;
+}
+.head{
+    font-size: 32px;
+    text-align: center;
+}
+img.signin-img{
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+}
+.col .btn {
+    align-items: center;
+}
+.card{
+    max-width: 750px;
+    margin: auto;
+}
+.form-control{
+    border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.butt{
+    color: black;
+    text-align: center;
+    font-size: 20px;  
+}
+.butt:hover{
+    color: #ff6961;
+    text-shadow: 0 0 3px black;
+    text-decoration: none;
+}
+.help:hover{
+    text-decoration: none;
+    color: #ff6961;
+    text-shadow: 0 0 1.5px black;
+}
+a.create{
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    color: black;
+    text-decoration: none;
+}
+a.create:hover{
+    text-shadow: 0 0 3px white;
+}
+.card-block.signin-block{
+    padding: 0px 20px;
+}
+#error_message{
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #f6f6f6;
+}
+.dropdown{
+    padding-top: 10px;
+}
+.ho :hover, #error_message{
+    color: #ff6961;
+}
